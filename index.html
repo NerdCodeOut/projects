@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    
+    
+    </style>
+  </head>
+  <body>
+    <!-- 
+      a div inside which i need 
+      -- input boxes for day, month, year
+      a horizontal line with a button 
+      three header text showing the calculated age
+
+     -->
+     <div class="box">
+      <form action="">
+        <div class="lbl">
+          <label for="day" class="label">DAY</label>
+          <label for="month" class = 'label'>MONTH</label>
+          <label for="year"  class="label">YEAR</label>
+        </div>
+        
+        <div class="ins">
+          <input type="number to text" placeholder="DD" class="day in">
+          <input type="number to text" placeholder="MM" class="month in">
+          <input type="number to text" placeholder="YYYY" class="year in">
+        </div>
+
+        <div class="nothing">
+          <p class="empty a hidden"> This field is required</p>
+          <p class="empty b hidden"> This field is required</p>
+          <p class="empty c hidden"> This field is required</p>
+        </div>
+        <div class="inval">
+          <p class="invalid a hidden">Must be a valid day</p>
+          <p class="invalid b hidden">Must be a valid month</p>
+          <p class="invalid c hidden">Must be in the past</p>
+        </div>
+        <p class="april a hidden"> Must be a valid date</p>
+      
+      </form>
+      <hr>
+      <button class="btn" id="btn" type="submit">
+        <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+
+
+      </button>
+      <h1 class="calc--0 z"><span class="ans-0">--</span>years</h1>
+      <h1 class="calc--1 z"><span class="ans-1">--</span>months</h1>
+      <h1 class="calc--2 z"><span class="ans-2">--</span>days</h1>
+
+
+
+
+     </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
